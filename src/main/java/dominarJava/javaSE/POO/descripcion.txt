@@ -1,0 +1,33 @@
+
+## INTRODUCCIÓN A LA PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
+
+La POO es el paradigma estándar en el desarrollo de software moderno.
+No es un lenguaje en sí, sino una forma de diseñar código basada en "objetos"
+que representan conceptos del mundo real.
+
+### 1. ¿Qué es un Paradigma?
+Es una metodología o estilo de programación. Java es un lenguaje
+diseñado para trabajar bajo este modelo, permitiendo crear sistemas escalables y fáciles de mantener.
+
+### 2. Los 4 Pilares de la POO
+
+Para aplicar buenas prácticas, debemos dominar estos conceptos:
+* //ABSTRACCION: Seleccionar solo las características esenciales de un objeto,
+ignorando los detalles complejos que no necesitamos.
+
+* //ENCAPSULAMIENTO: Proteger los datos internos de un objeto.
+Usamos modificadores de acceso (private, public) para que la información solo sea modificada de forma segura.
+
+* //HERENCIA: Permite que una clase nueva (hija) herede atributos y métodos de una clase existente (padre),
+facilitando la reutilización de código.
+
+* //POLIMORFISMO:  Es la capacidad de un objeto de tomar diferentes formas.
+ Un mismo método puede comportarse de manera distinta según el objeto que lo ejecute.
+
+---
+### ¿Por qué usar POO?
+
+1. **Reutilización:** No escribes el mismo código varias veces.
+2. **Modularidad:** Si algo falla, es más fácil encontrar el error en un objeto específico.
+3. **Mantenimiento:** Es más sencillo actualizar una parte del sistema sin romper el resto.
+
