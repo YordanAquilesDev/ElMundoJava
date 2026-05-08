@@ -4,7 +4,9 @@
 
 |NOMBRE |TIPO| DESCRIPCION|USO|
 |:---|:---|:---|:---|
-|byte|ntero |rango de -128 a 127|representar numeros poco gigantes: edad de una persona|
-|int|entero|rango de 
+|byte|Entero |Rango de -128 a 127|Representar numeros poco gigantes: edad de una persona|
+|int|Entero|Rango de -2 millones a 2 millones|Representar numeros estandares : cantidades|
+|long|Entero|Rango de -9 trillones a 9 trillones|Representar numeros imensos :IDs de una db|
+|float|Decimal|Rango de
 
 
