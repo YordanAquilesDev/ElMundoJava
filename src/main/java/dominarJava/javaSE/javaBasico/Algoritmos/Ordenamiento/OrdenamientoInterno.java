@@ -1,0 +1,21 @@
+package dominarJava.javaSE.Algoritmos.Ordenamineto;
+public class OrdenaminetoInterno{
+
+    public void OrdenamientoBurbuja(){
+        int numerosDesodenados[]={342, 12, 489, 21, 156, 401, 88, 12, 333, 4, 276, 490, 115, 67, 222, 19, 444, 312, 8, 99, 
+456, 23, 187, 302, 11, 498, 265, 74, 150, 2, 389, 421, 55, 128, 467, 33, 210, 91, 5, 176, 
+299, 43, 412, 87, 13, 355, 478, 66, 192, 10, 254, 381, 29, 144, 432, 71, 205, 95, 7, 168, 
+321, 48, 441, 82, 15, 366, 485, 61, 218, 14, 243, 377, 31, 139, 425, 77, 230, 89, 9, 181, 
+315, 52, 451, 84, 17, 372, 495, 58, 201, 16, 234, 361, 35, 132, 418, 73, 225, 93, 3, 199}
+
+    }
+    public void OrdenamientoSeleccion(){
+
+    }
+
+    public void OrdenamientoInsercion(){
+
+    }
+
+
+}
