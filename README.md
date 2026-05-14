@@ -14,19 +14,72 @@
 
 ## TIPO DE DATOS NO PRIMITIVOS
 
-|NOMBRE | TIPO | DESCRIPCION | USO |
-|:---|:---|:---|
+| NOMBRE | TIPO | DESCRIPCION | USO |
+| :--- | :--- | :--- | :--- |
+| **String** | Cadena | Almacenar una cadena de texto | Representar texto: URL, JSON, etc. |
+| **Object** | Objeto | Creado por el programador | Representar objetos del mundo real. |
 
-## OPERACIONES EN PROGRAMACIÓNARITMÉTICOS
+---
+
+## OPERACIONES EN PROGRAMACIÓN
+
+### 1. ARITMÉTICOS
 Se usan para cálculos matemáticos.
-SÍMBOLOOPERACIÓN USO+SumaConcatenar strings o sumar números.-RestaDiferencia entre valores.*MultiplicaciónProducto de factores./DivisiónCociente (ojo: si usas int, el resultado será entero).%MóduloEl residuo de una división (útil para saber si un número es par).LÓGICOSSe usan para combinar expresiones booleanas.SÍMBOLOOPERACIÓNUSO&&AND (Y)Devuelve true si AMBAS condiciones son verdaderas.||OR (O)Devuelve true si AL MENOS UNA condición es verdadera.!NOT (NO)Invierte el valor (true a false y viceversa).COMPARACIÓNSiempre devuelven un valor boolean.SÍMBOLOOPERACIÓNUSO==Igual aVerifica si dos valores son idénticos.!=Diferente deVerifica si dos valores no coinciden.>Mayor queComparación de magnitud.<Menor queComparación de magnitud.>=Mayor o igualComparación inclusiva.<=Menor o igualComparación inclusiva.DESPLAZAMIENTO BITS (Bitwise)Operaciones de bajo nivel sobre la representación binaria.SÍMBOLOOPERACIÓNUSO<<Desplazamiento IzquierdaMultiplica el número por potencias de 2.>>Desplazamiento DerechaDivide el número por potencias de 2 (mantiene el signo).&AND a nivel de bitsFiltrar bits específicos (máscaras).^XORCriptografía básica o intercambio de valores.LA ESTRUCTURA CONDICIONAL IFHace uso de un dato boolean (o una expresión que resulte en boolean) para decidir si ejecuta un bloque de código.Ejemplo en JavaJavaint edad = 18;
+
+| SÍMBOLO | OPERACIÓN | USO |
+| :---: | :--- | :--- |
+| `+` | Suma | Concatenar strings o sumar números. |
+| `-` | Resta | Diferencia entre valores. |
+| `*` | Multiplicación | Producto de factores. |
+| `/` | División | Cociente (si usas `int`, el resultado será entero). |
+| `%` | Módulo | El residuo de una división (ej. saber si un número es par). |
+
+### 2. LÓGICOS
+Se usan para combinar expresiones booleanas.
+
+| SÍMBOLO | OPERACIÓN | USO |
+| :---: | :--- | :--- |
+| `&&` | AND (Y) | Devuelve `true` si AMBAS condiciones son verdaderas. |
+| `||` | OR (O) | Devuelve `true` si AL MENOS UNA es verdadera. |
+| `!` | NOT (NO) | Invierte el valor (true a false y viceversa). |
+
+### 3. COMPARACIÓN
+Siempre devuelven un valor **boolean**.
+
+| SÍMBOLO | OPERACIÓN | USO |
+| :---: | :--- | :--- |
+| `==` | Igual a | Verifica si dos valores son idénticos. |
+| `!=` | Diferente de | Verifica si dos valores no coinciden. |
+| `>` | Mayor que | Comparación de magnitud. |
+| `<` | Menor que | Comparación de magnitud. |
+| `>=` | Mayor o igual | Comparación inclusiva. |
+| `<=` | Menor o igual | Comparación inclusiva. |
+
+### 4. DESPLAZAMIENTO BITS (Bitwise)
+Operaciones de bajo nivel sobre la representación binaria.
+
+| SÍMBOLO | OPERACIÓN | USO |
+| :---: | :--- | :--- |
+| `<<` | Desplazamiento Izq. | Multiplica el número por potencias de 2. |
+| `>>` | Desplazamiento Der. | Divide el número por potencias de 2. |
+| `&` | AND a nivel de bits | Filtrar bits específicos (máscaras). |
+| `^` | XOR | Criptografía básica o intercambio de valores. |
+
+---
+
+## LA ESTRUCTURA CONDICIONAL IF
+
+Hace uso de un dato **boolean** (o una expresión que resulte en boolean) para decidir si ejecuta un bloque de código.
+
+### Ejemplo en Java
+```java
+int edad = 18;
 
 if (edad >= 18) {
     System.out.println("Es mayor de edad");
 } else {
     System.out.println("Es menor de edad");
 }
-
 
 
 
