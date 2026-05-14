@@ -25,8 +25,6 @@ public class CosasQueAyEnUnArchivo {
 
     // una ves visto un poco sobre atributos
     // veamos un poco sobre los metodos
-    //
-
 
     public int devolverUnRamdon() {
         String descripcion = " un metod es una accion o comportacmiento " +
