@@ -75,12 +75,111 @@ Hace uso de un dato **boolean** (o una expresión que resulte en boolean) para d
 ```java
 int edad = 18;
 
-if (edad >= 18) {
-    System.out.println("Es mayor de edad");
-} else {
+if (edad >= 18) { // si es true dentra  al bloque de codigo
+    System.out.println("Es mayor de edad"); 
+} else { //  si no  entra al otro bloque de codigo
     System.out.println("Es menor de edad");
 }
+ ```
+
+## LA ESTRUCTURA CONDICIONAL SWITCH
+
+Busca simplificar  a la condicional if anidada o multiple 
+### Ejemplo en java
+```java
+int dia = 3;
+String nombreDia;
+
+switch (dia) {
+    case 1:
+        nombreDia = "Lunes";
+        break;
+    case 2:
+        nombreDia = "Martes";
+        break;
+    case 3:
+        nombreDia = "Miércoles";
+        break;
+    default:
+        nombreDia = "Día no válido";
+        break;
+}
+
+System.out.println("Hoy es: " + nombreDia);
+ ```
+## BUCLES
+### BUCLE FOR
+ Es el buble que se  usa caundo se sabe cuantas  veces quieres repetir una accion
+ ### ejemplo en java
+ ```java
+ // su estructura es 
+ // se declra la variable  a evaluar
+ // se ase un condicion con limite conocido o especificado 
+ // se incrementa para asercar a su condicion asa que cumpla
+ for(int i=1;i<=7;i++){// recorre por dias de la semana
+   switch(i){
+    case 1: 
+        System.out.println("El dia es " + "Lunes");
+         break;
+    case 2: 
+         System.out.println("El dia es " + "Martes");
+         break;
+    case 3: 
+         System.out.println("El dia es " + "Miercoles");
+        break;
+    case 4: 
+          System.out.println("El dia es " + "Jueves");
+         break;
+    case 5: 
+           System.out.println("El dia es " + "Viernes");
+           break;
+    case 6: 
+          System.out.println("El dia es " + "Sabado");
+         break;
+    default:
+          System.out.println("El dia es " + "Domingo");
+         break;
+   }
+
+ }
+ ```
+ Tambien podemos ver un for muy distinto alo  tradicional 
+el For-Each (Mejorado)
+ ```java
+String[] nombres = {"Ana", "Luis", "Juan"};
+// este es un for-each  mas simple y facil de implementar 
+// que el for tradicional
+
+// su estructura es simple  declaras una varibale  del mismo tipo de tu vector
+// :  el nombre de tu vector 
+for (String nombre : nombres) {
+    System.out.println("Persona: " + nombre);
+}
+
+// util para recorrer un vector 
+int[] edades= {13,32,18}
+for(int edad: edades){
+     System.out.println("Edad: " + edad);
+}
+
+ ```
+## WHILE
+Este bucle  ya no es com en for que sabes  cuantas veces quieres repetir 
+   este bucle se usa cuando   no saves cuantas veces se repetira una accion
+   ### ejemplo en java
+   ```java
+    String dejarDeJugar="NO"
+   boolean juegoTerminado=false
+   while(juegoTerminado){
+    String dejarDeJugar="NO"
+    if(dejarDEJugar!="NO"){
+        juegoTerminado=true;
+    }else{
+        juegoTerminado=false
+    }
+    System.out.println("Quiere seguir jugando");
+   dejarDeJugar=scanner.nextLine();
 
 
 
-
+   }
