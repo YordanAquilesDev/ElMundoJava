@@ -15,8 +15,7 @@
 ## TIPO DE DATOS NO PRIMITIVOS
 |NOMBRE | TIPO | DESCRIPCION | USO |
 |:---|:---|:---|
-|String|cadena|Almacenar una cadena de texto|Representar  texto: url,json,etc|
-|objt|Objeto|Este tipo de dato es creado por el programador|Representar objetos del mundo real|
+
 ## OPERACIONES EN PROGRAMACIÓNARITMÉTICOS
 Se usan para cálculos matemáticos.
 SÍMBOLOOPERACIÓN USO+SumaConcatenar strings o sumar números.-RestaDiferencia entre valores.*MultiplicaciónProducto de factores./DivisiónCociente (ojo: si usas int, el resultado será entero).%MóduloEl residuo de una división (útil para saber si un número es par).LÓGICOSSe usan para combinar expresiones booleanas.SÍMBOLOOPERACIÓNUSO&&AND (Y)Devuelve true si AMBAS condiciones son verdaderas.||OR (O)Devuelve true si AL MENOS UNA condición es verdadera.!NOT (NO)Invierte el valor (true a false y viceversa).COMPARACIÓNSiempre devuelven un valor boolean.SÍMBOLOOPERACIÓNUSO==Igual aVerifica si dos valores son idénticos.!=Diferente deVerifica si dos valores no coinciden.>Mayor queComparación de magnitud.<Menor queComparación de magnitud.>=Mayor o igualComparación inclusiva.<=Menor o igualComparación inclusiva.DESPLAZAMIENTO BITS (Bitwise)Operaciones de bajo nivel sobre la representación binaria.SÍMBOLOOPERACIÓNUSO<<Desplazamiento IzquierdaMultiplica el número por potencias de 2.>>Desplazamiento DerechaDivide el número por potencias de 2 (mantiene el signo).&AND a nivel de bitsFiltrar bits específicos (máscaras).^XORCriptografía básica o intercambio de valores.LA ESTRUCTURA CONDICIONAL IFHace uso de un dato boolean (o una expresión que resulte en boolean) para decidir si ejecuta un bloque de código.Ejemplo en JavaJavaint edad = 18;
