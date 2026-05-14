@@ -13,6 +13,7 @@
 |char|Caracter| Es unicode solo almacena un caracter|Almacenar un caracter:parser|
 
 ## TIPO DE DATOS NO PRIMITIVOS
+
 |NOMBRE | TIPO | DESCRIPCION | USO |
 |:---|:---|:---|
 
