@@ -43,25 +43,28 @@ for(int num: listaOrdenada){
     }
 
     public int[] OrdenarSeleccion(int[] listaDesordenada){
-        int dimensionDelaLista=listaDesordenada.length;
-        int posicionDelMenor;
-        for(int i=0;i<dimensionDelaLista;i++){
-            posicionDelMenor=i;
-            for(int j=i+1;j<dimensionDelaLista;j++){
-                if(listaDesordenada[i]>listaDesordenada[j]){
-                    posicionDelMenor=j;
-
-                }
+    int dimensionDelaLista = listaDesordenada.length;
+    int posicionDelMenor;
+    
+    for(int i = 0; i < dimensionDelaLista; i++){
+        posicionDelMenor = i;
+        
+        for(int j = i + 1; j < dimensionDelaLista; j++){
+            // ¡AQUÍ ESTABA EL ERROR! Comparamos contra el menor actual detectado
+            if(listaDesordenada[posicionDelMenor] > listaDesordenada[j]){
+                posicionDelMenor = j;
             }
-            int valorTemporalParaLaTransaccion= listaDesordenada[i];
-            listaDesordenada[i]=listaDesordenada[posicionDelMenor];
-            listaDesordenada[posicionDelMenor]= valorTemporalParaLaTransaccion;
         }
-        int ListaOrdenada[]=listaDesordenada;
-
-        return ListaOrdenada;
+        
+        // El intercambio (swap) está perfecto
+        int valorTemporalParaLaTransaccion = listaDesordenada[i];
+        listaDesordenada[i] = listaDesordenada[posicionDelMenor];
+        listaDesordenada[posicionDelMenor] = valorTemporalParaLaTransaccion;
     }
-
+    
+    int ListaOrdenada[] = listaDesordenada;
+    return ListaOrdenada;
+}
 
     public int[] OrdenarInsercion(int[] listaDesordenada){
   int i,j;

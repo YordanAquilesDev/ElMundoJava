@@ -33,7 +33,7 @@ public class CosasQueAyEnUnArchivo {
         return  (int) (Math.random() * 1000);
     }
 
-    public String Desribir() {
+    public String Describir() {
         return "Recuerda el String es un tipo No primitivo" +
                 " por que es una clase y tiene metodos";
     }
