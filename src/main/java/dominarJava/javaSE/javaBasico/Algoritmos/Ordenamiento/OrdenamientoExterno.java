@@ -1,1 +1,1 @@
-package dominarJava.javaSE.Algoritmos.Ordenamineto;
+package dominarJava.javaSE.javaBasico.Algoritmos.Ordenamiento;
