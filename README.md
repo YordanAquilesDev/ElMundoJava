@@ -162,6 +162,20 @@ for(int edad: edades){
      System.out.println("Edad: " + edad);
 }
 
+// tambien se aplica a un metodo o  variabels de tipo listas
+    public static List<Integer> obtenerNumeros() {
+        List<Integer> lista = new ArrayList<>();
+        lista.add(1);
+        lista.add(2);
+        lista.add(3);
+        lista.add(4);
+        lista.add(5);
+        return lista; 
+    }
+
+     obtenerNumeros().forEach(numero -> {
+         System.out.println("Número: " + numero);
+     });   
  ```
 ## WHILE
 Este bucle  ya no es com en for que sabes  cuantas veces quieres repetir 
