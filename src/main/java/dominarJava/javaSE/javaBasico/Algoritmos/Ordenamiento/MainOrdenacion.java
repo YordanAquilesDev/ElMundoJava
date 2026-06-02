@@ -7,11 +7,13 @@ public class MainOrdenacion {
         // ordenamientoInterno.OrdenamientoBurbuja();
         // ordenamientoInterno.OrdenamientoSeleccion();
         // ordenamientoInterno.OrdenamientoInsercion();
-        OrdenamientoExterno ordenamientoExterno = new OrdenamientoExterno();
+        //OrdenamientoExterno ordenamientoExterno = new OrdenamientoExterno();
         // ordenamientoExterno.OrdenamientoPorMezclaDirecta();
         // ordenamientoExterno.OrdenamientoPorFusionNatural();
         // ordenamientoExterno.OrdenamientoPorMezclaEquilibradaMultiple();
-        ordenamientoExterno.OrdenamientoPorMezclaPolifasica();
+        //ordenamientoExterno.OrdenamientoPorMezclaPolifasica();
+        OrdenamientoRapido ordenamineRapido= new OrdenamientoRapido();
+        ordenamineRapido.OrdenamientoRapidoQuickShort();
 
     }
 }
