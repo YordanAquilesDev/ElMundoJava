@@ -2,7 +2,7 @@ package dominarJava.javaSE.javaBasico;
 
 import java.util.Hashtable;
 
-public class BusquedaSecuelcial {
+public class BusquedaSecuenlcial {
 
     public void BusquedaSecuencialorBloque() {
         int[] datos = { 15, 26, 76, 24, 36,

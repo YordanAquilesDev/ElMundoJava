@@ -15,7 +15,7 @@ public class Main {
          * 
          * MasFundamentosDeUnArchivo mf = new MasFundamentosDeUnArchivo();
     */
-   BusquedaSecuelcial busqueda= new BusquedaSecuelcial();
+   BusquedaSecuenlcial busqueda= new BusquedaSecuenlcial();
    //busqueda.BusquedaSecuencialorBloque();
    busqueda.BusquedaSecuencialPorIndice();
 
