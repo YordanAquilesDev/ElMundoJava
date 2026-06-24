@@ -10,9 +10,9 @@ public class MasFundamentosDeUnArchivo {
     String usuario = "user";
     int edad;
     boolean esmayor = (edad > 18);
-    boolean Autenticado=(pasword=="123456789" && usuario=="user");
+    boolean Autenticadoo=(pasword=="123456789" && usuario=="user");
 
-    if(Autenticado)
+    if(Autenticadoo)
     {
         // tienes acceso
     }
@@ -20,8 +20,8 @@ public class MasFundamentosDeUnArchivo {
     if(esmayor)
     {
         // la variable si es mayor a 18
-
-    };if(edad>18)
+    };
+    if(edad>18)
     {
         // la variable si es mayor a 18
 
